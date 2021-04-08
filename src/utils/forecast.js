@@ -18,9 +18,9 @@ const forecast = (latitude, longitude, callback) => {
           body.current.weather_descriptions +
           " temperature : " +
           body.current.temperature +
-          "° C \n It feels like " +
+          "° C. \n It feels like " +
           body.current.feelslike +
-          "° C \n The windspeed is " +
+          "° C. \n The windspeed is " +
           body.current.wind_speed
       );
     }
